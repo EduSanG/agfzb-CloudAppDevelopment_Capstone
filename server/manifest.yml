@@ -1,11 +1,11 @@
   applications:
-  - name: dealerreiew
+  - name: dealerapp
     routes:
-      - route: host.domain
+      - route: esg-dealerapp.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: dealerreiew-nginx
+  - name: dealerapp-nginx
     routes:
-      - route: host.domain/static
+      - route: esg-dealerapp.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
