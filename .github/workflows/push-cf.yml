@@ -7,7 +7,7 @@ env:
   IBM_CLOUD_REGION: us-south
   IBM_CLOUD_GROUP: 	8d96999d4f7a44e3ad8a709fd2de67ca
   IBM_CLOUD_SPACE: dev
-  IBM_CLOUD_ORG:
+  IBM_CLOUD_ORG: eduardo.sand.g@gmail.com
   MANIFEST_NAME: manifest.yml
   IBM_CLOUD_API: ${{secrets.IBM_CLOUD_API_KEY}}
 
